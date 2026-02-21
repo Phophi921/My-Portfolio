@@ -1,0 +1,242 @@
+<!D<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phophi Malise · Portfolio</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header with name and navigation -->
+        <header>
+            <h1 class="page-title">Phophi Malise <span>Portfolio</span></h1>
+            <nav class="navbar">
+                <div class="nav-buttons">
+                    <button onclick="scrollToSection('about')"><i class="fas fa-user"></i> About</button>
+                    <button onclick="scrollToSection('projects')"><i class="fas fa-code"></i> Projects</button>
+                    <button onclick="scrollToSection('skills')"><i class="fas fa-cogs"></i> Skills</button>
+                    <button onclick="scrollToSection('certificates')"><i class="fas fa-certificate"></i> Certificates</button>
+                    <button onclick="scrollToSection('contact')"><i class="fas fa-envelope"></i> Contact</button>
+                    <button onclick="scrollToSection('education')"><i class="fas fa-graduation-cap"></i> Education</button>
+                    <button onclick="scrollToSection('why-hire')"><i class="fas fa-star"></i> Why hire me</button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero section: Hi, I'm Phophi Malise, Software Developer -->
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Hi, I am <span class="orange">Phophi Malise</span></h2>
+                <h3>I am a <span class="orange">Software Developer</span></h3>
+                <p>I design and develop full-stack web applications with a strong 
+                   <br>focus on usability, perfomance and layout. My work combines</br> 
+                     clean code, insightful design and strategic problem‑solving
+                    <br>to create impactful digital experiences.</br></p>
+                <!-- Profile picture -->
+                <div class="hero-pic-mobile">
+                    <div class="hero-pic">
+                        <img src="Me2fa627a14-c8cb-4609-8b9e-dade3f8e7937.jpg" alt="Phophi Malise profile picture">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <button class="btn-orange" id="download-cv"><i class="fas fa-download"></i> Download CV</button>
+                <button class="btn-outline-orange" onclick="scrollToSection('contact')"><i class="fas fa-paper-plane"></i> Get in touch</button>
+            </div>
+        </section>
+
+        <!-- About section with profile info and about picture -->
+        <section id="about">
+            <h2 class="section-title"><i class="fas fa-smile orange"></i> About Me</h2>
+            <div class="about-container">
+                <!-- About picture -->
+                <div class="about-picture">
+                    <div class="single-pic-frame">
+                        <img src="Me19d84ba7-5778-4c82-9a48-27d39bf34bb2.jpg" alt="Phophi Malise about picture">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I am a Software Developer with Advanced Diploma in Information Technology from Vaal University of Technology. 
+                   My academic background has equipped me with strong foundations in Software Development, web Development, Business Analysis and Data Analysis.
+                   I specialize in building responsive, user-friendly applications and intelligent digital solutions. With experience in UX design, chatbot development 
+                and AI-driven systems, I focus on writing clean, adaptable code that solves real-world problems and delivers meaningful impact. </p>
+                    <!-- LinkedIn and GitHub as clickable icons only (no text) -->
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/phophi-malise-b8a558365" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Phophi921" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education section -->
+        <section id="education">
+            <h2 class="section-title"><i class="fas fa-graduation-cap orange"></i> Education</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="image-placeholder"><i class="fas fa-university"></i></div>
+                    <h3><i class="fas fa-award orange"></i> Adv. Diploma IT (Cum Laude)</h3>
+                    <div class="badge">2025</div>
+                    <p>Vaal University of Technology · Vanderbiltpark<br>Focus: Software Development, advanced programming.</p>
+                </div>
+                <div class="card">
+                    <div class="image-placeholder"><i class="fas fa-laptop-code"></i></div>
+                    <h3><i class="fas fa-diploma orange"></i> National Diploma: IT</h3>
+                    <div class="badge">2022 – 2024</div>
+                    <p>VUT · Coursework: Web Dev, Business Analysis, Software Dev, IT Support, Networking.</p>
+                </div>
+                <div class="card">
+                    <div class="image-placeholder"><i class="fas fa-school"></i></div>
+                    <h3><i class="fas fa-book orange"></i> Matric</h3>
+                    <div class="badge">2016 – 2020</div>
+                    <p>Mbilwi Secondary School, Sibasa</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section id="skills">
+            <h2 class="section-title"><i class="fas fa-cogs orange"></i> Skills</h2>
+            <div class="skills-panel">
+                <span class="skill-chip">MS Office (Excel, PowerPoint, Word, Outlook, Teams)</span>
+                <span class="skill-chip">Networking</span>
+                <span class="skill-chip">Programming</span>
+                <span class="skill-chip">Software Development</span>
+                <span class="skill-chip">SQL</span>
+                <span class="skill-chip">JavaScript</span>
+                <span class="skill-chip">Python</span>
+                <span class="skill-chip">Java</span>
+                <span class="skill-chip">HTML</span>
+                <span class="skill-chip">Communication</span>
+                <span class="skill-chip">Problem Solving</span>
+                <span class="skill-chip">Analytical Thinking</span>
+                <span class="skill-chip">Teamwork</span>
+                <span class="skill-chip">Leadership</span>
+                <span class="skill-chip">Attention to Detail</span>
+                <span class="skill-chip">Time Management</span>
+                <span class="skill-chip">Adaptability</span>
+            </div>
+            <p><strong>Languages:</strong> English, Tshivenda</p>
+        </section>
+
+        <!-- Projects section (with SA Youth Council) -->
+        <section id="projects">
+            <h2 class="section-title"><i class="fas fa-project-diagram orange"></i> Projects</h2>
+            <div class="card-grid">
+                <!-- Project 1: UX iEnabler -->
+                <div class="card">
+                    <div class="image-placeholder project-img">
+                        <img src="C1a1ccbaba-66a6-4378-856c-310d0c03b356.jpg" alt="VUT iEnabler project">
+                    </div>
+                    <h3>VUT iEnabler · UX redesign</h3>
+                    <p>Oct 2025 – User research, personas, journey maps. Improved navigation & usability for the student portal.</p>
+                </div>
+                <!-- Project 2: Gym Wear Chatbot with live link -->
+                <div class="card">
+                    <div class="image-placeholder project-img">
+                        <img src="C201dedddb-5950-478a-9cc9-fddeacefd043.jpg" alt="Gym Wear Chatbot">
+                    </div>
+                    <h3>Gym Wear Chatbot</h3>
+                    <p>May 2025 – A customer-support botpress chatbot to assist users navigation(FAQs, recommendations).</p>
+                    <a href="https://cdn.botpress.cloud/webchat/v3.0/shareable.html?configUrl=https://files.bpcontent.cloud/2025/06/07/07/20250607070235-0YQ7D5SL.json" target="_blank" class="btn-outline-orange" style="margin-top: 10px;"><i class="fas fa-external-link-alt"></i> try chatbot</a>
+                </div>
+                <!-- Project 3: AI hospitality -->
+                <div class="card">
+                    <div class="image-placeholder project-img">
+                        <img src="C36e897454-a753-4aa1-babf-4fb9227215e4.jpg" alt="AI for hospitality">
+                    </div>
+                    <h3>AI for hospitality</h3>
+                    <p>Jul–Nov 2024 – Python, scikit‑learn, NLTK, MySQL. Chatbot & database schema.</p>
+                </div>
+                <!-- Project 4: Functional website -->
+                <div class="card">
+                    <div class="image-placeholder project-img">
+                        <img src="C47c49bc61-3c9d-48b6-88ec-cc1a64b7a352.jpg" alt="Membership website">
+                    </div>
+                    <h3>FitLife-Studio website</h3>
+                    <p>Oct 2024 – A membership website using HTML, CSS, JS with scheduling & online payments.</p>
+                </div>
+                <!-- Project 5: SA Youth Council -->
+                <div class="card">
+                    <div class="image-placeholder project-img">
+                        <img src="C5d8144688-65c2-47d9-bfd7-ebf6151a12f5.jpg" alt="SA Youth Council platform">
+                    </div>
+                    <h3>SA Youth Council platform</h3>
+                    <p>HTML, CSS, JavaScript – interactive portal for youth programs, event registration and resource hub. (designed with modern UI)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates section -->
+        <section id="certificates">
+            <h2 class="section-title"><i class="fas fa-scroll orange"></i> Certificates</h2>
+            <div class="card-grid">
+                <div class="card"><i class="fas fa-network-wired orange"></i> CCNA (Cisco)</div>
+                <div class="card"><i class="fas fa-tasks orange"></i> Agile Project Management</div>
+                <div class="card"><i class="fas fa-desktop orange"></i> IT Essentials</div>
+                <div class="card"><i class="fas fa-microchip orange"></i> Artificial Intelligence</div>
+                <div class="card"><i class="fas fa-cloud orange"></i> Cloud Architecture</div>
+                <div class="card"><i class="fas fa-chart-bar orange"></i> Probability & Statistics</div>
+            </div>
+        </section>
+
+        <!-- Why hire me section -->
+        <section id="why-hire">
+            <h2 class="section-title"><i class="fas fa-handshake orange"></i> Why hire me</h2>
+            <div class="two-col">
+                <div class="highlight-box" style="margin:0;">
+                    <h3><i class="fas fa-rocket orange"></i> modern & adaptable</h3>
+                    <p>As a fresh graduate I bring fresh knowledge, strong fundamentals and hands-on project experiences
+                        in web development, UX design and AI based systems. I am highly motivated to grow and I am not 
+                        afraid of challenges. I am depandable, detail-oriented and commited to continuous learning.
+                        Hiring me means gaining someone who is ready tp learn fast, work hard, and contribute meaningfully from the start.</p>
+                </div>
+                <div class="highlight-box" style="margin:0;">
+                    <h3><i class="fas fa-code orange"></i> full‑stack junior ready</h3>
+                    <p>Python, JavaScript, Java, SQL, HTML/CSS — I build and ship. I combine technical skills with soft skills (leadership, communication).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section with form to send message -->
+        <section id="contact">
+            <h2 class="section-title"><i class="fas fa-address-card orange"></i> Contact me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope orange"></i> phophimalise060@gmail.com</p>
+                    <p><i class="fas fa-phone orange"></i> 072 527 0033</p>
+                    <!-- LinkedIn and GitHub as clickable icons only (no text) -->
+                    <div class="contact-icons">
+                        <a href="https://www.linkedin.com/in/phophi-malise-b8a558365" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Phophi921" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-orange"><i class="fas fa-paper-plane"></i> Send Message</button>
+                </form>
+            </div>
+            <p class="reference-note"><strong>References:</strong> Available upon request.</p>
+        </section>
+
+        <!-- Back to top button -->
+        <div style="display: flex; justify-content: center; margin: 2rem 0;">
+            <button class="btn-orange" onclick="window.scrollTo({top:0, behavior:'smooth'})"><i class="fas fa-arrow-up"></i> back to top</button>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-ref">
+             · Phophi Malise portfolio 2026
+        </footer>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
